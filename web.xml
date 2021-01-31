@@ -105,17 +105,4 @@
 	<url-pattern>/Login</url-pattern>
 </servlet-mapping>
 
-<!-- srv7.Servlet -->
-
-<servlet>
-	<servlet-name>Servlet</servlet-name>
-	<servlet-class>srv7.Servlet</servlet-class>
-</servlet>
-<servlet-mapping>
-	<servlet-name>Servlet</servlet-name>
-	<url-pattern>/</url-pattern>
-</servlet-mapping>
-
-
-
 </web-app>
