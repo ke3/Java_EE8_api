@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+	http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+
+
+<!-- srv1.MyNameServlet -->
+<servlet>
+	<servlet-name>MyNameServlet</servlet-name>
+	<servlet-class>srv1.MyNameServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>MyNameServlet</servlet-name>
+	<url-pattern>/MyName</url-pattern>
+</servlet-mapping>
+
+<!-- srv1.CurrentTimeServlet -->
+<servlet>
+	<servlet-name>CurrentTimeServlet</servlet-name>
+	<servlet-class>srv1.CurrentTimeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CurrentTimeServlet</servlet-name>
+	<url-pattern>/Now</url-pattern>
+</servlet-mapping>
+
+<!-- srv1.CurrentTimeServlet2 -->
+<servlet>
+	<servlet-name>CurrentTimeServlet2</servlet-name>
+	<servlet-class>srv1.CurrentTimeServlet2</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>CurrentTimeServlet2</servlet-name>
+	<url-pattern>/Now2</url-pattern>
+</servlet-mapping>
+
+<!-- srv2.ColorMessageServlet -->
+<servlet>
+	<servlet-name>ColorMessageServlet</servlet-name>
+	<servlet-class>srv2.ColorMessageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ColorMessageServlet</servlet-name>
+	<url-pattern>/ColorMessage</url-pattern>
+</servlet-mapping>
+
+<!-- srv2.ColorMessageServlet2 -->
+<servlet>
+	<servlet-name>ColorMessageServlet2</servlet-name>
+	<servlet-class>srv2.ColorMessageServlet2</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ColorMessageServlet2</servlet-name>
+	<url-pattern>/ColorMessage2</url-pattern>
+</servlet-mapping>
+
+<!-- srv3.PersonServlet -->
+<servlet>
+	<servlet-name>PersonServlet</servlet-name>
+	<servlet-class>srv3.PersonServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>PersonServlet</servlet-name>
+	<url-pattern>/Personal</url-pattern>
+</servlet-mapping>
+
+<!-- srv4.BmiServlet -->
+<servlet>
+	<servlet-name>BmiServlet</servlet-name>
+	<servlet-class>srv4.BmiServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>BmiServlet</servlet-name>
+	<url-pattern>/BMI</url-pattern>
+</servlet-mapping>
+
+<!-- srv5.EnzanServlet -->
+<servlet>
+	<servlet-name>EnzanServlet</servlet-name>
+	<servlet-class>srv5.EnzanServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>EnzanServlet</servlet-name>
+	<url-pattern>/Enzan</url-pattern>
+</servlet-mapping>
+
+<!-- srv6.LoginServlet -->
+
+<servlet>
+	<servlet-name>LoginServlet</servlet-name>
+	<servlet-class>srv6.LoginServlet</servlet-class>
+	<init-pram>
+		<param-name>user</param-name>
+		<param-value>ohtomo</param-value>
+	</init-pram>
+	<init-pram>
+		<param-name>password</param-name>
+		<param-value>1234</param-value>
+	</init-pram>
+</servlet>
+<servlet-mapping>
+	<servlet-name>LoginServlet</servlet-name>
+	<url-pattern>/Login</url-pattern>
+</servlet-mapping>
+
+<!-- srv7.Servlet -->
+
+<servlet>
+	<servlet-name>Servlet</servlet-name>
+	<servlet-class>srv7.Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>Servlet</servlet-name>
+	<url-pattern>/</url-pattern>
+</servlet-mapping>
+
+
+
+</web-app>
